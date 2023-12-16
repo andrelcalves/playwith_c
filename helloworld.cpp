@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+/*
+data types
+
+chat    (1 byte)  | %c     
+int     (4 bytes) | %d
+float   (4 bytes) | %f
+double  (8 bytes) | %lf
+*/
+
+
 void fprinttest(const char *hello);
 
 int main(){
