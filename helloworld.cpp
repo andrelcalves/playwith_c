@@ -14,6 +14,7 @@ to print bytes use %zu
 
 void funcHelloWorld(const char *hello);
 void funcUserInputData(void);
+void funcArithemeticOperators(void);
 
 int main(){
     funcHelloWorld("Hello, world!\n");
@@ -64,7 +65,31 @@ void funcUserInputData(void){
     scanf("%d %c",&age, &gender);
 
     printf("\nYou have %d years old and is a %c", age, gender);
+
+    funcArithemeticOperators();
 }
 
+void funcArithemeticOperators(void){
+    /*
+    + Addition
+    - Subtraction
+    * Mutiplication
+    / Division
+    % Remainder
+    ++ Increment (increments by 1)
+    -- Decrement (decrements by 1)
+
+    to print only a specif numbers of cases in fload or double use as example %.1f %.2f 
+    */
+    
+    int x = 12;
+    int result = x + 8;
+    printf("\n %d",result);
+
+    float y = 34.556;
+    printf("\n %.2f",y + 16.555) ;
+
+
+}
 
 
