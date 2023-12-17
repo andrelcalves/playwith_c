@@ -17,30 +17,34 @@
 #include <stdio.h>
 
 void funcHelloWorld(const char *hello);
+void funcDataTypes(void);
 void funcUserInputData(void);
 void funcArithemeticOperators(void);
 
 int main(){
     funcHelloWorld("Hello, world!\n");
-
+    funcDataTypes();
+    funcUserInputData();
+    funcArithemeticOperators();
     return 0;
 }
 
 void funcHelloWorld(const char *hello){
-    int x;
-    
+      
     while(*hello){
         printf("%c", *hello);
         hello++;
     }
+}
+void funcDataTypes(void){
 
+    int x;
     for(x=0; x<10; x++){
       printf("%d", x);      
     }
 
     double y;
     y = 5.5e6;
-
     printf("\n %lf",y);
 
     //the char type in fact is stored as integer so if you print with %d u can see the value of the caracter as showing below
@@ -53,10 +57,10 @@ void funcHelloWorld(const char *hello){
     printf("\nint size in bytes = %zu",sizeof(age));
     printf("\nnumber size in bytes = %zu \n",sizeof(number));
 
-    funcUserInputData();
-}
 
+}
 void funcUserInputData(void){
+
     // get date from user interaction
     int age;
     printf("Enter age value: ");
@@ -69,10 +73,8 @@ void funcUserInputData(void){
     scanf("%d %c",&age, &gender);
 
     printf("\nYou have %d years old and is a %c", age, gender);
-
-    funcArithemeticOperators();
+    
 }
-
 void funcArithemeticOperators(void){
     /*
     + Addition

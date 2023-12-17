@@ -21,3 +21,7 @@ To compile C C++ code in windows I am using Unix-like environment for building a
         ]
     }
 }
+```
+
+## References
+* [C23 - C standard revision for 2024](https://en.wikipedia.org/wiki/C23_(C_standard_revision))
