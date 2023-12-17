@@ -1,16 +1,20 @@
-#include <stdio.h>
-// This code is for draft and test only
-/*
-data types
+/* 
+    This source code serves as a playground for learning and experimentation purposes.
+    Feel free to modify, experiment, and explore different concepts here. 
+    Comments and annotations are provided to aid understanding.
+    Remember, this is a safe environment for testing and learning!
 
-chat    (1 byte)  | %c     
-int     (4 bytes) | %d
-float   (4 bytes) | %f
-double  (8 bytes) | %lf
+    C data types remainder
 
-to print bytes use %zu
+    chat    (1 byte)  | %c     
+    int     (4 bytes) | %d
+    float   (4 bytes) | %f
+    double  (8 bytes) | %lf
+
+    to print bytes use %zu
 */
 
+#include <stdio.h>
 
 void funcHelloWorld(const char *hello);
 void funcUserInputData(void);
@@ -75,7 +79,7 @@ void funcArithemeticOperators(void){
     - Subtraction
     * Mutiplication
     / Division
-    % Remainder
+    % Remainder (ex: 1/12 = -8/4 the result is 4)
     ++ Increment (increments by 1)
     -- Decrement (decrements by 1)
 
@@ -89,6 +93,21 @@ void funcArithemeticOperators(void){
     float y = 34.556;
     printf("\n %.2f",y + 16.555) ;
 
+    // remainder
+    /*
+    12/8   12  |_ 8
+    rest-> *4*   1
+    */
+    printf("\n result of remainder: %d", x % 8);
+
+    /* ++ -- oprators, when it cames after the value firts is move to the other variable than the operations occurs as example below*/
+    int a = 12;
+    int b = a++;
+    printf("\n a = %d and b = %d",a,b);
+
+    a = 12;
+    b = ++a;
+    printf("\n a = %d and b = %d",a,b);
 
 }
 
