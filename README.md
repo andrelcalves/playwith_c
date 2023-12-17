@@ -1,7 +1,10 @@
 # playwith_c
 My personal c / c++ playground
 
+## playgroud.cpp 
 
+ This source code serves as a playground for learning and experimentation purposes.Feel free to modify, experiment, and explore different concepts here. 
+ Comments and annotations are provided to aid understanding.
 
 ## MSYS2
 
