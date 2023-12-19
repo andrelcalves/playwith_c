@@ -4,7 +4,7 @@ int binarySearch(int list[], int size, int target);
 
 int main() {  
   int list[] = {1,2,3,4,5,6,7,8,9,10};
-  int target = 3;
+  int target = 10;
   // Calculate the size of the array
   // Sizeof dertemines the size based on the type information at compile time.
   // It doesn't perform any form of iteration or traversal through an array;
