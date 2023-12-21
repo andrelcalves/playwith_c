@@ -12,7 +12,7 @@ The following text describes how this GitHub repository is organized, its intend
 
 ## Algorithms
 
-This folder contains well-known algorithms such as linear search, B-trees, etc., implemented using the C programming language. It also serves as a space to experiment and play with these algorithms.
+This folder contains well-known algorithms such as linear search, binary search, B-trees, etc., implemented using the C programming language. It also serves as a space to experiment and play with these algorithms.
 
 # MSYS2
 
